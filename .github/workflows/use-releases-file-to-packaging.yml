@@ -12,7 +12,7 @@ on:
       source_branch:
         description: "Select the source branch"
         required: false
-        default: "official"
+        default: "immortalwrt"
         type: choice
         options:
           - official
@@ -21,7 +21,7 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "yskj"
         type: choice
         options:
           - all
@@ -193,10 +193,11 @@ on:
       kernel_repo:
         description: "Set the kernel repository"
         required: false
-        default: "ophub/kernel"
+        default: "JimLee1996/kernel"
         type: choice
         options:
           - ophub/kernel
+          - JimLee1996/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
